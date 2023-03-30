@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.16837"
+   height="60.172649"
+   viewBox="0 0 37.61538 15.92068"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="eve.svg"
+   inkscape:export-filename="eve.svg"
+   inkscape:export-xdpi="95.886307"
+   inkscape:export-ydpi="95.886307"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="29.521708"
+     inkscape:cy="36.150834"
+     inkscape:window-width="3840"
+     inkscape:window-height="2135"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="35.38633"
+       y="93.53627"
+       width="502.73605"
+       height="201.20163"
+       id="rect4190" />
+    <color-profile
+       name="FOGRA30L-Uncoated-Yellowish"
+       xlink:href="file:///usr/share/color/icc/colord/FOGRA30L_uncoated_yellowish.icc"
+       id="color-profile15459" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.04258467,1.5033786e-4)">
+    <rect
+       style="fill:#0d3b2c;fill-opacity:1;stroke-width:0.0700209"
+       id="rect117"
+       width="37.615379"
+       height="15.92068"
+       x="-0.042584669"
+       y="-0.00015033786" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f5deb3;fill-opacity:0.435294;stroke-width:0.0700941"
+       x="2.1805959"
+       y="8.4967871"
+       id="text3190"
+       transform="scale(1.0000145,0.99998551)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f5deb3;fill-opacity:0.435294;stroke-width:0.0700941"
+         x="2.1805959"
+         y="8.4967871"
+         sodipodi:role="line"
+         id="tspan4070">Elk View</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.07009518,0,0,0.07009315,7.5051752,1.7466436)"
+       id="text4188"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80.5266px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect4190);display:inline;fill:#f5deb3;fill-opacity:0.435294"><tspan
+         x="35.386719"
+         y="164.78428"
+         id="tspan15469">Estate</tspan></text>
+  </g>
+</svg>
