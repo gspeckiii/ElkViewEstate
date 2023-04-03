@@ -2,7 +2,7 @@
   text-align: center;
 
   &__icon {
-    background-color: $mainOrange;
+    background-color: $darkRed;
     display: inline-block;
     width: 33%;
     height: 72px;
@@ -20,5 +20,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    
   }
 }

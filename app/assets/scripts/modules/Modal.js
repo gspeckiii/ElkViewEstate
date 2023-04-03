@@ -32,16 +32,21 @@ class Modal {
     document.body.insertAdjacentHTML('beforeend', `
     <div class="modal">
     <div class="modal__inner">
-      <h2 class="section-title section-title--blue section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Get in <strong>Touch</strong></h2>
+      <h2 class="section-title section-title--green section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Get in <strong>Touch</strong></h2>
       <div class="wrapper wrapper--narrow">
-        <p class="modal__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!</p>
+        <p class="modal__description">Click the HipCamp link below to book a campsite or connect with me on social network to discuss other opportunities.</p>
+        
       </div>
 
       <div class="social-icons">
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/facebook.svg" alt="Facebook"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/twitter.svg" alt="Twitter"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/instagram.svg" alt="Instagram"></a>
-        <a href="#" class="social-icons__icon"><img src="assets/images/icons/youtube.svg" alt="YouTube"></a>
+        <a href="https://www.facebook.com/george.s.peck.1" target="_blank" class="social-icons__icon"><img src="assets/images/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://twitter.com/grittyNwitty" target="_blank" class="social-icons__icon"><img src="assets/images/icons/twitter.svg" alt="Twitter"></a>
+        <a href="https://www.instagram.com/georgeshermanpeck/" target="_blank" class="social-icons__icon"><img src="assets/images/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.youtube.com/channel/UCwUTc0JHLL97aoXBTU5P3kw" target="_blank" class="social-icons__icon"><img src="assets/images/icons/youtube.svg" alt="YouTube"></a>
+      </div>
+
+      <div class="wrapper wrapper--narrow hipcamp">
+      <a href="https://www.hipcamp.com/en-US/u/georgepa798bb"><img src="assets/images/icons/hipcamp.svg" alt="HipCamp"></a>
       </div>
     </div>
     <div class="modal__close">X</div>

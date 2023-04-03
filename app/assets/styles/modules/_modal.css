@@ -28,6 +28,7 @@
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.65;
+    color:$darkGreen;
   }
 
   &__close {
@@ -38,10 +39,10 @@
     transform: scaleX(1.2);
     transform-origin: 100% 0;
     cursor: pointer;
-    color: $mainBlue;
+    color: $darkGreen;
 
     &:hover {
-      color: $mainOrange;
+      color: $darkRed;
     }
   }
 }
