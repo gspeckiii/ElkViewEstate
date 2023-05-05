@@ -23,16 +23,20 @@ class RevealOnScroll {
     console.log("Scroll function ran")
     this.itemsToReveal.forEach(el => {
       if (el.isRevealed == false) {
-        this.calculateIfScrolledTo(el)
+        if (window.scrollY + this.browserHeight >= document.body.offsetHeight) {
+          this.calculateIfScrolledTo(el, 100)
+        } else {
+          this.calculateIfScrolledTo(el, this.thresholdPercent)
+        }
       }
     })
   }
 
-  calculateIfScrolledTo(el) {
+  calculateIfScrolledTo(el, thresholdPercent) {
     if (window.scrollY + this.browserHeight > el.offsetTop) {
       console.log("Element was calculated")
       let scrollPercent = (el.getBoundingClientRect().top / this.browserHeight) * 100
-      if (scrollPercent < this.thresholdPercent) {
+      if (scrollPercent < thresholdPercent) {
         el.classList.add("reveal-item--is-visible")
         el.isRevealed = true
         if (el.isLastItem) {
@@ -43,11 +47,13 @@ class RevealOnScroll {
   }
 
   hideInitially() {
-    this.itemsToReveal.forEach(el => {
+    this.itemsToReveal.forEach((el, index) => {
       el.classList.add("reveal-item")
       el.isRevealed = false
+      if (index === this.itemsToReveal.length - 1) {
+        el.isLastItem = true
+      }
     })
-    this.itemsToReveal[this.itemsToReveal.length - 1].isLastItem = true
   }
 }
 
